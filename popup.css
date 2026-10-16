@@ -1,0 +1,76 @@
+:root {
+  color-scheme: light dark;
+  font: 14px/1.45 system-ui, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 300px;
+  max-width: 360px;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+#message {
+  margin-bottom: 12px;
+  color: light-dark(#50545a, #c3c7ce);
+}
+
+#message.error {
+  color: light-dark(#b42318, #ff8b82);
+}
+
+.app-name {
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.current-environment {
+  margin-bottom: 16px;
+  color: light-dark(#50545a, #c3c7ce);
+}
+
+.section-label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+.targets {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid light-dark(#c8ccd0, #555a60);
+  border-radius: 6px;
+  background: light-dark(#fff, #292c30);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+button:hover {
+  background: light-dark(#f0f3f6, #373b40);
+}
+
+.manage-button {
+  border-color: transparent;
+  background: light-dark(#f0f3f6, #373b40);
+}

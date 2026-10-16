@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Env Switcher</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="shared.js" defer></script>
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Env Switcher</h1>
+      <p id="message" role="status" aria-live="polite">Checking this page…</p>
+      <section id="page-details" hidden>
+        <p class="app-name" id="app-name"></p>
+        <p class="current-environment" id="current-environment"></p>
+        <p class="section-label">Open this page in</p>
+        <div id="targets" class="targets"></div>
+      </section>
+      <button id="manage-button" class="manage-button" type="button">Manage apps</button>
+    </main>
+  </body>
+</html>
